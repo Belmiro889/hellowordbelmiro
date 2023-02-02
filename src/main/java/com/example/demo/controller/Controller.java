@@ -9,7 +9,9 @@ public class Controller {
 	
 	@GetMapping(value = "/hello")
 	public String helloWord() {
-		return "Hello Word";
+		return "Hello Word: Belmiro Tobias Placido";
+		
+		
 	}
 	
 	
